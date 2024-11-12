@@ -295,7 +295,6 @@ with tab3:
                 # Wyświetlenie tabeli
                 st.write(f"#### {metric.capitalize()}")
                 st.table(df_metric)            
-    st.write(f"Kolumna docelowa '{target_column}' nie została znaleziona w danych.")
 
 
 st.write("Metoda eliminacji braków danych wpływa na wyniki modeli uczenia maszynowego, choć w przypadku zbioru danych Airlines wpływ ten nie jest drastyczny. Uzupełnianie braków danych pozwala zachować pełny zbiór danych i może prowadzić do lepszej równowagi między precyzją a czułością w modelach.")
